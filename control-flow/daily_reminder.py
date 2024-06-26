@@ -6,21 +6,21 @@ reminder = f"Reminder: '{task}' is a "
 
 match priority:
     case "high":
-        reminder += "high priority task"
+        reminder = reminder + "high priority task"
         if time_bound == "yes":
-                reminder += " that requires immediate attention today!"
+                reminder = reminder + " that requires immediate attention today!"
         else:
-            reminder += " that needs to be done soon."
+            reminder = reminder + " that needs to be done soon."
     case "medium":
-        reminder += "medium priority task"
+        reminder = reminder + "medium priority task"
         if time_bound == "yes":
-            reminder += " that should be addressed today."
+            reminder = reminder + " that should be addressed today."
         else:
-            reminder += " that you should complete soon."
+            reminder = reminder + " that you should complete soon."
     case "low":
-        reminder += "low priority task"
+        reminder = reminder + "low priority task"
         if time_bound == "yes":
-            reminder += " but you have time to complete it."
+            reminder = reminder + " but you have time to complete it."
         else:
-            reminder += ". Consider completing it when you have free time."
+            reminder = reminder + ". Consider completing it when you have free time."
 print(reminder)

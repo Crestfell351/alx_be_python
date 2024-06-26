@@ -1,7 +1,7 @@
 first = int (input("Enter the first number:"))
 second = int(input("Enter the second number:"))
-operations = input("Choose the operation (+, -, *, /):")
-match operations:
+operation = input("Choose the operation (+, -, *, /):")
+match operation:
     case'+':
         res = first + second
     case'-':

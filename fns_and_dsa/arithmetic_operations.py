@@ -2,11 +2,14 @@ def perform_operation(num1, num2, operation):
   
   match operation:
     case'+':
-        res = num1 + num2
+        add = num1 + num2
+        res = add 
     case'-':
-        res = num1 - num2    
+        subract = num1 - num2  
+        res = subract
     case'*':
-        res = num1 * num2
+        multiply = num1 * num2
+        res = multiply 
     case'/':
         if num2 == 0:
             print("Cannot divide by zero.")

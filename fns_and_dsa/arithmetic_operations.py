@@ -2,14 +2,14 @@ def perform_operation(num1, num2, operation):
   
   match operation:
     case'+':
-        res = first + second
+        res = num1 + num2
     case'-':
-        res = first - second    
+        res = num1 - num2    
     case'*':
-        res = first * second
+        res = num1 * num2
     case'/':
-        if second == 0:
+        if num2 == 0:
             print("Cannot divide by zero.")
         else:
-            res = first / second
+            res = num1 / num2
   return res

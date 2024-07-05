@@ -5,8 +5,8 @@ def perform_operation(num1, num2, operation):
         add = num1 + num2
         res = add 
     case'-':
-        subract = num1 - num2  
-        res = subract
+        subtract = num1 - num2  
+        res = subtract
     case'*':
         multiply = num1 * num2
         res = multiply 

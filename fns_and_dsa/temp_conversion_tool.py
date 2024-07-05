@@ -17,3 +17,5 @@ if cf == 'C':
 elif cf == 'F':
     new_temparature = convert_to_fahrenheit(temparature) 
     print(f"{temparature(float)}°C is {new_temparature(float)}°F")
+else:
+    print("Invalid temperature. Please enter a numeric value.")
